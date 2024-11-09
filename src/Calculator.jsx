@@ -23,7 +23,7 @@ const Calculator = () => {
   };
 
   return (
-    <main className="w-screen h-screen p-4 bg-slate-50 grid place-items-center">
+    <main className="w-screen h-svh p-4 bg-slate-50 grid place-items-center">
       <div className="bg-white rounded-3xl shadow-2xl p-4 grid gap-4 w-full max-w-96">
         <div className="bg-stone-950 text-white rounded-2xl px-4 py-8 text-5xl text-end font-bold">
           {result !== null ? result : input || "0"}
